@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #101014;
+}
+
+.BarChart {
+  display: inline-block;
+}
+
+.BarChartMenu {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 30px;
+}
+
+.BarChartMenu button {
+  display: block;
+  background-color: #3d3337;
+  border: 1px solid #101014;
+  color: #bcc9dc;
+  padding: 10px 24px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.BarChartMenu button:not(:last-child) {
+  border-bottom: none;
+}
+
+.BarChartMenu button:hover {
+  background-color: #c8aa8e;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
